@@ -2,6 +2,8 @@
 
 This is written to accompany the [official docs](https://protobuf.dev/getting-started/cpptutorial/). 
 
+At the time of writing, I couldn't find a modern (protobuf v31.1) example.
+
 ```bash
 git clone github.com/tch1001/protobuf-cpp-example
 cd protobuf-cpp-example
