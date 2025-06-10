@@ -2,7 +2,7 @@
 
 This is written to accompany the [official docs](https://protobuf.dev/getting-started/cpptutorial/). 
 
-At the time of writing, I couldn't find a modern (protobuf v31.1) example.
+At the time of writing, I couldn't find a modern (protobuf v31.1) example. I struggled with compatible version of protobuf and abseil, so I pinned them at v31.1 and 20250127.0 respectively.
 
 ```bash
 git clone github.com/tch1001/protobuf-cpp-example
@@ -44,3 +44,6 @@ cmake ..
 cmake --build . --target generated_protos -j$(nproc)
 # now the .pb.cc and .pb.h is generated alongside .proto
 ```
+
+## Hire me pls
+I am currently seeking employment in C++ jobs. tanchienhao at gmail dot com 
