@@ -27,5 +27,18 @@ popd
 mkdir build && cd build 
 cmake .. 
 cmake --build . -j$(nproc)
-./write phonebook.bin
+./writing phonebook.bin
+# follow prompts to add some entries in phonebook
+hexdump phonebook.bin
+./reading phonebook.bin
+```
+
+For development, 
+
+```bash
+touch protos/my_own_proto.proto
+mkdir build && cd build
+cmake .. 
+cmake --build . --target generated_protos -j$(nproc)
+# now the .pb.cc and .pb.h is generated alongside .proto
 ```
